@@ -5,9 +5,6 @@ import Child2 from "./Child2";
 const Parent = () =>{
     let [selectedOption, setSelectedOption] = useState("");
 
-    function clickOption(){
-        selectedOption;
-    }
 
     return(
         <div className="parent">
